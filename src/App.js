@@ -39,7 +39,7 @@ function App(props) {
                         <Route path="/auth/login/" exact component={Login} />
                         <Route path="/auth/create/" exact component={Signup} />
                         <PrivateRoute path="/place/:id" component={Place} />
-                        <Route component={NotFound} />
+                        {/* <Route component={NotFound} /> */}
                     </Switch>
                 </Router>
             </userContext.Provider>

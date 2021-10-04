@@ -2,7 +2,6 @@
   "name": "travel-app",
   "version": "0.1.0",
   "homepage": "http://Sreehari-SM.github.io/Travel-App",
-
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
